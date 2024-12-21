@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>113306031_Lab5</title>
+	<link rel="stylesheet" href=Lab5.css>
+</head>
+<body>
+	<label for="mathGrade"></label>
+    <input type="number" id="mathGrade" placeholder="Math" required>
+    
+    <label for="englishGrade"></label>
+    <input type="number" id="englishGrade" placeholder="English" required>
+
+    <button type="button" onclick="submitGrades()">Submit</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td id="math1">0</td>
+                <td id="english1">0</td>
+                <td id="average1">0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td id="math2">0</td>
+                <td id="english2">0</td>
+                <td id="average2">0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td id="math3">0</td>
+                <td id="english3">0</td>
+                <td id="average3">0</td>
+            </tr>
+            <tr>
+                <td>Average</td>
+                <td id="mathAverage">0</td>
+                <td id="englishAverage">0</td>
+                <td id="totalAverage">0</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="Lab5.js" charset="utf-8"></script>
+</body>
+</html>
